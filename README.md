@@ -9,6 +9,12 @@ API using Spring Boot 2.3.M4, R2DBC, PostgreSQL, Reactive Web, Spring Cloud Sleu
   sudo docker-compose -f docker/docker-compose.yml up -d
   
   mvn spring-boot:run
+ 
+ ## Metrics/Tracing
+ 
+ Connect to your Wavefront dashboard using this one-time use link:
+ 
+ https://wavefront.surf/us/KCS6pPQ4Fl
 
 # Frontend
 
