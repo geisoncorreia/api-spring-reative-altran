@@ -9,7 +9,7 @@ import { ReservationService } from '../reservation.service';
 })
 export class ReservationComponent implements OnInit {
 
-  displayedColumns: string[] = ['id', 'name'];
+  displayedColumns = ['id', 'name'];
   data: Reservation[] = [];
   isLoadingResults = true;
 
